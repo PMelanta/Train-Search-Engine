@@ -1,0 +1,9 @@
+127.0.0.1 - - [29/Apr/2019:12:18:59 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:20 +0530] "GET /QueryTrain/login.jsp HTTP/1.1" 200 2398
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:21 +0530] "GET /QueryTrain/images/saparation.gif HTTP/1.1" 404 1064
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:21 +0530] "GET /favicon.ico HTTP/1.1" 404 1022
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:27 +0530] "GET /QueryTrain/index.jsp HTTP/1.1" 200 2075
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:27 +0530] "GET /QueryTrain/images/saparation.gif HTTP/1.1" 404 1064
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:31 +0530] "GET /QueryTrain/checktrains.jsp HTTP/1.1" 200 2640
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:32 +0530] "GET /QueryTrain/images/saparation.gif HTTP/1.1" 404 1064
+0:0:0:0:0:0:0:1 - - [29/Apr/2019:12:19:34 +0530] "GET /QueryTrain/checktrainsvia.jsp HTTP/1.1" 200 2996

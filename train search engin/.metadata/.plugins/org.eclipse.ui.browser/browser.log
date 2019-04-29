@@ -1,0 +1,155 @@
+
+Nov 13, 2018 11:42:09.51 NEW SESSION
+Nov 13, 2018 11:42:09.51 [9364:5788:1113/114209.508:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 13, 2018 11:42:41.35 [9364:5788:1113/114241.357:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+Nov 13, 2018 11:42:41.68 [9364:5788:1113/114241.684:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+
+Nov 23, 2018 16:16:47.60 NEW SESSION
+Nov 23, 2018 16:16:47.60 [2940:3836:1123/161647.597:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 23, 2018 16:17:20.83 [2940:3836:1123/161720.829:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+Nov 23, 2018 16:17:20.95 [2940:3836:1123/161720.958:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+Nov 23, 2018 16:27:36.16 [2940:3836:1123/162736.166:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 23, 2018 16:28:05.30 [2940:3836:1123/162805.309:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 23, 2018 16:29:02.65 [2940:3836:1123/162902.658:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 23, 2018 16:44:03.51 [2940:3836:1123/164403.515:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 23, 2018 19:13:30.52 [2940:3836:1123/191330.519:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 23, 2018 19:13:53.04 [1564:12772:1123/191353.046:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 23, 2018 19:28:31.46 [1564:12772:1123/192831.466:ERROR:textfield.cc(1767)] NOT IMPLEMENTED
+Nov 23, 2018 19:36:56.51 [1564:12772:1123/193656.515:ERROR:media_internals.cc(104)] Cannot get RenderProcessHost
+Nov 23, 2018 19:36:56.53 [1564:12772:1123/193656.516:ERROR:media_internals.cc(104)] Cannot get RenderProcessHost
+
+Nov 26, 2018 16:27:01.75 NEW SESSION
+Nov 26, 2018 16:27:01.75 [15220:15196:1126/162701.752:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 16:39:47.43 [13740:13276:1126/163947.435:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 16:42:46.82 NEW SESSION
+Nov 26, 2018 16:42:46.82 [15552:13100:1126/164246.826:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 17:26:00.30 NEW SESSION
+Nov 26, 2018 17:26:00.30 [4540:3384:1126/172600.298:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 17:46:01.30 [4540:3384:1126/174601.305:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 17:46:29.01 [4540:3384:1126/174629.013:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 17:47:19.05 [4540:3384:1126/174719.051:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 17:49:18.11 [4540:3384:1126/174918.113:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 17:52:40.58 [4540:3384:1126/175240.584:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 17:58:56.66 [4540:3384:1126/175856.665:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Nov 26, 2018 18:07:41.22 [12728:5844:1126/180741.221:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 18:13:25.00 NEW SESSION
+Nov 26, 2018 18:13:25.00 [8296:10456:1126/181324.998:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 18:21:06.46 [8296:10456:1126/182106.464:ERROR:textfield.cc(1767)] NOT IMPLEMENTED
+Nov 26, 2018 18:38:07.06 [14116:5132:1126/183807.064:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 18:39:20.59 NEW SESSION
+Nov 26, 2018 18:39:20.59 [10792:1888:1126/183920.594:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 22:55:24.45 NEW SESSION
+Nov 26, 2018 22:55:24.45 [16288:2828:1126/225524.456:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 22:58:26.95 [2184:3916:1126/225826.949:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 22:59:15.07 [9696:4300:1126/225915.073:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 23:00:55.12 [Parent 14996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.13 [Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.14 [Child 13484, Chrome_ChildThread] WARNING: pipe error[Child 13100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.15 [Child 13100, Chrome_ChildThread][Parent 14996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.16 [Child 8196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.17 [Child 8196, Chrome_ChildThread] W[Parent 14996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.17 [Child 6828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:00:55.26 [Child 6828, Chrome_ChildThread] WARNING: p[GPU 7204, Chrome_ChildThread] 
+Nov 26, 2018 23:00:55.26 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 26, 2018 23:00:55.27 
+
+Nov 26, 2018 23:13:10.57 NEW SESSION
+Nov 26, 2018 23:13:10.57 [2808:3584:1126/231310.576:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 23:17:21.35 NEW SESSION
+Nov 26, 2018 23:17:21.35 [Parent 11856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.36 [Parent 11856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.37 [Child 11868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.38 [Child 11868, Chrome_ChildThread] WARNING: pipe error: 109: file[Child 12980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.39 [Child 12980, Chrome_ChildThread] WARNING: pipe error: 109: file [Parent 11856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.40 [Child 824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Nov 26, 2018 23:17:21.48 [Child 824, Chrome_ChildThread] WARN[GPU 2552, Chrome_Ch
+Nov 26, 2018 23:17:21.49 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 26, 2018 23:17:21.49 
+
+Nov 26, 2018 23:28:50.41 NEW SESSION
+Nov 26, 2018 23:28:50.41 [11604:5220:1126/232850.411:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 23:33:18.14 NEW SESSION
+Nov 26, 2018 23:33:18.14 [6716:2648:1126/233318.140:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 26, 2018 23:48:51.77 [3100:6392:1126/234851.772:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 26, 2018 23:49:42.77 NEW SESSION
+Nov 26, 2018 23:49:42.77 [15256:6692:1126/234942.773:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 27, 2018 24:01:31.31 [1904:3728:1127/000131.312:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Nov 27, 2018 24:02:24.28 NEW SESSION
+Nov 27, 2018 24:02:24.28 [13824:2836:1127/000224.285:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Nov 27, 2018 24:10:11.70 [6408:15128:1127/001011.706:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 14:38:26.11 NEW SESSION
+Dec 03, 2018 14:38:26.11 [13904:4428:1203/143826.117:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 15:16:54.36 NEW SESSION
+Dec 03, 2018 15:16:54.36 [2196:7096:1203/151654.364:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 15:19:19.87 [12756:13388:1203/151919.879:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 15:20:44.52 [10560:7308:1203/152044.520:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 15:21:50.64 [13548:13296:1203/152150.647:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 15:41:23.75 NEW SESSION
+Dec 03, 2018 15:41:23.75 [12168:14764:1203/154123.755:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 15:51:19.57 [12168:14764:1203/155119.571:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+Dec 03, 2018 15:51:20.26 [12168:14764:1203/155120.265:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+Dec 03, 2018 15:51:20.28 [12168:14764:1203/155120.285:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+Dec 03, 2018 15:52:32.08 [12168:14764:1203/155232.079:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+Dec 03, 2018 15:52:32.09 [12168:14764:1203/155232.097:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+
+Dec 03, 2018 18:07:21.05 NEW SESSION
+Dec 03, 2018 18:07:21.05 [6984:14680:1203/180721.049:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 18:10:44.54 [15028:9664:1203/181044.540:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 18:14:42.76 [15028:9664:1203/181442.766:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 03, 2018 18:15:04.89 [15028:9664:1203/181504.889:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 03, 2018 18:15:58.90 [15028:9664:1203/181558.904:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 03, 2018 18:17:41.13 [15028:9664:1203/181741.133:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 03, 2018 18:18:11.07 [10020:8804:1203/181811.074:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 18:23:38.91 NEW SESSION
+Dec 03, 2018 18:23:38.91 [6512:8836:1203/182338.910:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 18:32:47.82 [14660:3392:1203/183247.826:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 21:19:26.81 NEW SESSION
+Dec 03, 2018 21:19:26.81 [792:11544:1203/211926.810:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 21:35:04.32 [7392:9420:1203/213504.321:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 03, 2018 21:59:31.83 NEW SESSION
+Dec 03, 2018 21:59:31.83 [1568:4832:1203/215931.829:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 22:05:18.67 [1568:4832:1203/220518.673:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+Dec 03, 2018 22:05:19.52 [1568:4832:1203/220519.521:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+Dec 03, 2018 22:05:20.40 [1568:4832:1203/220520.405:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+Dec 03, 2018 22:05:23.25 [1568:4832:1203/220523.258:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+Dec 03, 2018 22:17:31.39 [5684:6524:1203/221731.391:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 22:25:44.76 [5684:6524:1203/222544.766:ERROR:textfield.cc(1767)] NOT IMPLEMENTED
+Dec 03, 2018 22:31:43.19 [10672:4220:1203/223143.197:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 22:57:50.82 [4600:7340:1203/225750.822:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 03, 2018 23:01:27.12 [1768:11808:1203/230127.125:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 04, 2018 10:35:28.65 [1768:11808:1204/103528.659:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+Dec 05, 2018 15:35:50.56 NEW SESSION
+Dec 05, 2018 15:35:50.56 [9336:5780:1205/153550.561:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 05, 2018 17:09:34.51 [9336:5780:1205/170934.510:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 05, 2018 17:10:06.28 [9336:5780:1205/171006.279:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 05, 2018 17:10:59.19 [9336:5780:1205/171059.197:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 05, 2018 17:12:24.26 [9336:5780:1205/171224.266:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 05, 2018 17:15:07.55 [9336:5780:1205/171507.551:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+Dec 06, 2018 07:17:03.39 NEW SESSION
+Dec 06, 2018 07:17:03.39 [13800:15392:1206/071703.394:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 06, 2018 09:35:30.74 [13800:15392:1206/093530.742:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+Dec 06, 2018 09:56:42.07 NEW SESSION
+Dec 06, 2018 09:56:42.07 [10744:7032:1206/095642.073:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+
+Dec 06, 2018 09:59:13.09 NEW SESSION
+Dec 06, 2018 09:59:13.09 [16852:2576:1206/095913.089:ERROR:gpu_process_transport_factory.cc(980)] Lost UI shared context.
+Dec 06, 2018 10:06:03.30 [16852:2576:1206/100603.307:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Dec 06, 2018 10:06:29.43 [16852:2576:1206/100629.435:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
