@@ -17,68 +17,60 @@
 			<ul class="navi">
 				<li><a href="index.jsp">Home Page</a></li>
 				<li><a href="checktrains.jsp">Check Trains</a></li>
-				<li><a herf="#"> Check Routes</a>
-				<li><a href="contact.jsp">Contact Us</a></li>
+				<li><a href="checktrainsvia.jsp"> Check via</a></li>
+				<li><a href="checkroute.jsp">Check Route</a></li>
 				<li><a href="login.jsp">Log In</a></li>
 			</ul>
 		</div>
 		<div id="left_">
 			<h2>Reminder</h2>
 			<p>
-				<span>T S E,</span> a web application for help user who want the information about the train 
+				<span>T S E,</span> a web application for help user who want the
+				information about the train
 			</p>
 			<p>&nbsp;</p>
-			<p>-------- </p>
+			<p>--------</p>
 			<p>&nbsp;</p>
 			<p>
 				<a href="#">read more</a>
 			</p>
 			<p>&nbsp;</p>
 			<p>
-				<span>Dear User,</span> all the information is for in this Information retrival is for testing 
+				<span>Dear User,</span> all the information is for in this
+				Information Access is for testing
 			</p>
 			<p>&nbsp;</p>
 		</div>
 		<div id="right_">
-			<h2>Welcome To T S E</h2>
-			
-			<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="images/img1.jpg" style="width:100%">
-  <img class="mySlides" src="images/img2.jpg" style="width:100%">
-  <img class="mySlides" src="images/img3.jpg" style="width:100%">
-</div>
+			<center>
+				<table border="2">
+					<td><font color="white"> <span> <strong>Contact
+									Us </strong>
 
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-			
-			
+								<h1>The National Institute of Engineering</h1>
+								<h4>Mysuru</h4>
+								<h4>
+									<font color="blue"> <strong>Call:</strong> + 91-
+										9480361255
+									</font>
+								</h4>
+								<h4>
+									<strong>Email: </strong>preranmelanta@gmail.com
+								</h4>
+						</span></font></td>
+				</table>
+				</font>
+			</center>
 		</div>
 		<div id="footer1_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr><font color="red">
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-							</font>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font></span>
+				</p>
+			</center>
 		</div>
 		<div id="footer3_">&nbsp;</div>
 	</div>

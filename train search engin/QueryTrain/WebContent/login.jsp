@@ -17,8 +17,8 @@
 			<ul class="navi">
 				<li><a href="index.jsp">Home Page</a></li>
 				<li><a href="checktrains.jsp">Check Trains</a></li>
-				<li><a herf="#"> Check Routes</a>
-				<li><a href="contact.jsp">Contact Us</a></li>
+				<li><a href="checktrainsvia.jsp"> Check via</a></li>
+				<li><a href="checkroute.jsp">Check Route</a></li>
 				<li><a href="login.jsp">Log In</a></li>
 			</ul>
 		</div>
@@ -80,15 +80,14 @@
 		</div>
 		<div id="footer1_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr>
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
 		<div id="footer3_">&nbsp;</div>
 	</div>

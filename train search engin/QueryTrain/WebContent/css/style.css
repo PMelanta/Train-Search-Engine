@@ -15,7 +15,8 @@
 	height: 388px;
 	background-image: url('../images/header.jpg');
 }
-#header_ ul.navi{
+
+#header_ ul.navi {
 	width: 750px;
 	display: block;
 	position: absolute;
@@ -25,7 +26,8 @@
 	margin: 0;
 	background: none;
 }
-#header_ ul.navi li{
+
+#header_ ul.navi li {
 	border-width: 1px;
 	background: url(../images/saparation.gif) no-repeat right;
 	height: 22px;
@@ -34,7 +36,8 @@
 	display: block;
 	float: left;
 }
-#header_ ul.navi li a{
+
+#header_ ul.navi li a {
 	font: 14px/21px Arial, Helvetica, sans-serif;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -47,12 +50,14 @@
 	background-repeat: no-repeat;
 	background-image: url('../images/button.png');
 }
-#header_ ul.navi li a:hover{
+
+#header_ ul.navi li a:hover {
 	color: #FFFF99;
 	text-decoration: none;
 	background-repeat: no-repeat;
 	background-image: url('../images/button_over.png');
 }
+
 #left_ {
 	float: left;
 	left: 0px;
@@ -61,7 +66,8 @@
 	background-image: url('../images/left.jpg');
 	background-repeat: no-repeat;
 }
-#left_ h2{
+
+#left_ h2 {
 	font: 26px/24px "Calisto MT";
 	color: #CCFF66;
 	font-weight: normal;
@@ -75,7 +81,8 @@
 	padding-top: 8px;
 	padding-left: 65px;
 }
-#left_ p{
+
+#left_ p {
 	background: no-repeat;
 	color: #DDE6C8;
 	padding: 0 0 0 65px;
@@ -87,16 +94,19 @@
 	margin-bottom: 0;
 	letter-spacing: 0px;
 }
-#left_ p span{
+
+#left_ p span {
 	color: #99CC00;
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-#left_ p span.bg{
+
+#left_ p span.bg {
 	color: #799fbb;
 }
-#left_ p a{
+
+#left_ p a {
 	font: 13px/12px Tahoma;
 	font-weight: normal;
 	color: #FFCC00;
@@ -105,7 +115,8 @@
 	padding-right: 0;
 	padding-bottom: 0;
 }
-#left_ p a:hover{
+
+#left_ p a:hover {
 	background: no-repeat;
 	color: #FFFF99;
 	font-weight: normal;
@@ -119,7 +130,8 @@
 	width: 512px;
 	background-image: url('../images/right.jpg');
 }
-#right_ h2{
+
+#right_ h2 {
 	font: 29px/24px "Calisto MT";
 	color: #CCFF66;
 	font-weight: normal;
@@ -133,7 +145,8 @@
 	padding-top: 10px;
 	padding-left: 10px;
 }
-#right_ p{
+
+#right_ p {
 	background: no-repeat;
 	color: #DDE6C8;
 	padding: 0 0 0 10px;
@@ -145,16 +158,19 @@
 	margin-bottom: 0;
 	letter-spacing: 0px;
 }
-#right_ p span{
+
+#right_ p span {
 	color: #99CC00;
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-#right_ p span.bg{
+
+#right_ p span.bg {
 	color: #799fbb;
 }
-#right_ p a{
+
+#right_ p a {
 	font: 13px/12px "trebuchet MS";
 	font-weight: normal;
 	color: #FFCC00;
@@ -163,7 +179,8 @@
 	padding-right: 0;
 	padding-bottom: 0;
 }
-#right_ p a:hover{
+
+#right_ p a:hover {
 	background: no-repeat;
 	color: #FFFF66;
 	font-weight: normal;
@@ -178,6 +195,7 @@
 	height: 23px;
 	background-image: url('../images/footer1.jpg');
 }
+
 #footer2_ {
 	float: left;
 	left: 0px;
@@ -202,7 +220,7 @@
 	background-image: url('../images/footer2.jpg');
 }
 
-#footer2_  p{
+#footer2_  p {
 	background: no-repeat;
 	color: #DDE6C8;
 	padding: 0;
@@ -212,14 +230,17 @@
 	font: 13px/17px Tahoma;
 	text-align: center;
 }
-#footer2_  p span{
+
+#footer2_  p span {
 	color: #DDE6C8;
 	font-weight: bold;
 }
-#footer2_  p span.bg{
+
+#footer2_  p span.bg {
 	color: #799fbb;
 }
-#footer2_  p a{
+
+#footer2_  p a {
 	font: 13px/12px Tahoma;
 	font-weight: bold;
 	color: #FFCC00;
@@ -228,7 +249,8 @@
 	padding-right: 0;
 	padding-bottom: 0;
 }
-#footer2_  p a:hover{
+
+#footer2_  p a:hover {
 	background: no-repeat;
 	color: #FFFF66;
 }
@@ -248,8 +270,8 @@
 	top: 673px;
 	width: 760px;
 	height: 27px;
-	
 }
+
 body {
 	margin: 0px;
 	background-image: url('../images/bg.jpg');

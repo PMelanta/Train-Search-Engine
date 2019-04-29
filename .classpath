@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="train search engin/QueryTrain/src"/>
+	<classpathentry kind="lib" path="train search engin/QueryTrain/build/WebContent/WEB-INF/lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="train search engin/QueryTrain/WebContent/WEB-INF/lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="output" path="train search engin/QueryTrain/build/classes"/>
+</classpath>

@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Travelling Train</title>
+<title>Traveling Train</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/login.js"></script>
@@ -123,7 +123,8 @@
 						NAME</td>
 					<td><input type="text" id="trainname_up" name="trainname_up"
 						value="<%=trainname%>"
-						style="width: 200px; height: 25px; border-radius: 10px;" required=""></input></td>
+						style="width: 200px; height: 25px; border-radius: 10px;"
+						required=""></input></td>
 				</tr>
 				<tr>
 					<td><input type="hidden" value="<%=id%>" id="update_id"
@@ -243,18 +244,15 @@
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr><font color="red">
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-							</font>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
-		<div id="footer3_">&nbsp;</div>
 	</div>
 </body>
 </html>

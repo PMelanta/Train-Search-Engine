@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Travelling Train</title>
+<title>Traveling Train</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/login.js"></script>
@@ -17,8 +17,8 @@
 			<ul class="navi">
 				<li><a href="index.jsp">Home Page</a></li>
 				<li><a href="checktrains.jsp">Check Trains</a></li>
-				<li><a herf="#"> Check Routes</a>
-				<li><a href="contact.jsp">Contact Us</a></li>
+				<li><a href="checktrainsvia.jsp"> Check via</a></li>
+				<li><a href="checkroute.jsp">Check Route</a></li>
 				<li><a href="login.jsp">Log In</a></li>
 			</ul>
 		</div>
@@ -35,7 +35,7 @@
 					<tr>
 						<td
 							style="font-size: 30px; font-weight: bold; color: blue; font-family: monospace;"
-							colspan="2">ASSIGN TRAINS</td>
+							colspan="2">SEARCH TRAINS</td>
 						<td></td>
 					</tr>
 				</thead>
@@ -110,6 +110,7 @@
 									+ "(SELECT stationid FROM stations WHERE stationname='"+source
 									+"') AND (SELECT stationid FROM stations WHERE stationname='"+dest+"') IN"
 									+"(SELECT stationid FROM routes WHERE assignid=assignid)";
+					System.out.println(sqlquery);
 					ResultSet resultSet = dao.getData(sqlquery);
 					if(resultSet.next()){
 						%>
@@ -129,9 +130,14 @@
 			<%
 						do{
 						sqlquery = "SELECT trainname,source,destination FROM trains INNER JOIN assigntrains ON assigntrains.trainid"
-								 + "=trains.trainid WHERE assignid="+resultSet.getInt("assignId");
+								 + "=trains.trainid WHERE assignid="+resultSet.getInt("assignId")
+								 + " AND (SELECT routesid FROM routes WHERE stationid=(SELECT stationid FROM stations WHERE "
+								 +"stationname='"+dest+"') AND  assignid="+resultSet.getInt("assignId")+")"
+								 +"> (SELECT routesid FROM routes WHERE stationid=(SELECT stationid FROM stations"
+								 +" WHERE stationname='"+source+"') AND  assignid="+resultSet.getInt("assignId")+")";
+						System.out.println(sqlquery);
 						ResultSet rs = dao.getData(sqlquery);
-						rs.next();						
+						if(rs.next()){				
 		%>
 			<tr>
 
@@ -148,11 +154,18 @@
 					style="color: #CCFF66">CLICK HERE</a></td>
 			</tr>
 			<%
+						}
 				} while (resultSet.next());
 			%>
 		</table>
 		<%
-			}
+			}else{
+						%>
+		<div
+			style="color: #FFCC00; font-family: inherit; font-size: 25px; font-weight: bold; text-align: center; margin-top: 100px; margin-left: 30px; font-family: monospace; font-weight: bold;">
+			No Trains Available</div>
+		<%
+					}
 		%>
 		<%
 			}
@@ -206,15 +219,14 @@
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr>
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
 	</div>
 </body>

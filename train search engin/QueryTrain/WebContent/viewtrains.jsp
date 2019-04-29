@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Travelling Train</title>
+<title>Traveling Train</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/login.js"></script>
@@ -30,7 +30,7 @@
 			DAO_Implement dao = new DAO_Implement();
 		%>
 		<%
-			String query = "SELECT source , destination , trainname , trains.trainid FROM assigntrains INNER JOIN trains ON assigntrains.trainid = trains.trainid";
+			String query = "SELECT source , destination , trainname , trains.trainid,assignid FROM assigntrains INNER JOIN trains ON assigntrains.trainid = trains.trainid";
 			ResultSet resultSet = dao.getData(query);
 			if (resultSet.next()) {
 		%>
@@ -51,7 +51,7 @@
 						String source = resultSet.getString("source");
 						String destination = resultSet.getString("destination");
 						String train = resultSet.getString("trainname");
-						int trainid = resultSet.getInt("trainid");
+						int assignid = resultSet.getInt("assignid");
 			%>
 			<tr>
 				<td
@@ -62,8 +62,8 @@
 					style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=train%></td>
 				<td
 					style="font-size: 18px; font-weight: bold; font-family: monospace;"><a
-					href="viewtrains.jsp?delete_id=<%=trainid%>" onclick="ondelete()"
-					style="color: #FFCC00;">Delete</a></td>					
+					href="viewtrains.jsp?delete_id=<%=assignid%>" onclick="ondelete()"
+					style="color: #FFCC00;">Delete</a></td>
 			</tr>
 			<%
 				} while (resultSet.next());
@@ -80,24 +80,44 @@
 			}
 		%>
 
+		<%
+			if(request.getParameter("delete_id")!=null){
+				int id = Integer.parseInt(request.getParameter("delete_id"));
+				query = "delete from assigntrains where assignid = " + id;
+				int rows = dao.putData(query);
+				dao.closeConnection();
+				if (rows > 0) {
+		%>
+		<script type="text/javascript">
+			alert("Train has been Deleted");
+			window.location.href = "viewtrains.jsp" + "#col-left";
+		</script>
+		<%
+			} else {
+		%>
+		<script type="text/javascript">
+			alert("Train Has Not been Deleted")
+			window.location.href = "viewtrains.jsp" + "#col-left";
+		</script>
+		<%
+			}
+			}
+		%>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr><font color="red">
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-							</font>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
-		<div id="footer3_">&nbsp;</div>
 	</div>
 </body>
 </html>

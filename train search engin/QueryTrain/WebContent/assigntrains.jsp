@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Travelling Train</title>
+<title>Traveling Train</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/assigntrains.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/assigntrains.js"></script>
@@ -90,7 +90,7 @@
 					%>
 					<td><select id="trains" name="trains" required="required"
 						style="height: 30px; font-weight: bold; width: 200px; border-radius: 10px;">
-							<option value="">Select Stop</option>
+							<option value="">Select Train</option>
 							<%
 								int trainid = 0;
 								if (request.getParameter("trains") != null) {
@@ -235,18 +235,15 @@
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr><font color="red">
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-							</font>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
-		<div id="footer3_">&nbsp;</div>
 	</div>
 </body>
 </html>

@@ -47,7 +47,8 @@
 						style="color: #734633; font-weight: bold; font-size: 20px; color: #FFCC00; font-family: monospace;">STATION
 						NAME</td>
 					<td><input type="text" id="stationname" name="stationname"
-						style="width: 200px; height: 25px; border-radius: 10px;" required=""></input></td>
+						style="width: 200px; height: 25px; border-radius: 10px;"
+						required=""></input></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -120,8 +121,8 @@
 					<td
 						style="color: #734633; font-weight: bold; font-size: 20px; color: #FFCC00; font-family: monospace;">STATION
 						NAME</td>
-					<td><input type="text" id="stationname_up" name="stationname_up" required=""
-						value="<%=name%>"
+					<td><input type="text" id="stationname_up"
+						name="stationname_up" required="" value="<%=name%>"
 						style="width: 200px; height: 25px; border-radius: 10px;"></input></td>
 				</tr>
 				<tr>
@@ -241,18 +242,15 @@
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footer2_">
-			<p>
-				This template is under the Creative Commons Attribution 2.5</a> License.<br /> <br /> <span>
-					<table class="footer" border="0" cellpadding=0 cellspacing=0 width="100%">
-						<tr><font color="red">
-							<td align="center"><font color="white">Copyright 2018-2019 Train Search Engine</font></td>
-							</font>
-						</tr>
-					</table>
-				</span>
-			</p>
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
 		</div>
-		<div id="footer3_">&nbsp;</div>
 	</div>
 </body>
 </html>

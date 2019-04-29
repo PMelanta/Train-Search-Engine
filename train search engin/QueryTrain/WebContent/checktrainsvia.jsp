@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Travelling Train</title>
+<title>Traveling Train</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/login.js"></script>
@@ -17,8 +17,8 @@
 			<ul class="navi">
 				<li><a href="index.jsp">Home Page</a></li>
 				<li><a href="checktrains.jsp">Check Trains</a></li>
-				<li><a herf="checktrainsvia.jsp"> Check via</a></li>
-				<li><a href="contact.jsp">Contact Us</a></li>
+				<li><a href="checktrainsvia.jsp"> Check via</a></li>
+				<li><a href="checkroute.jsp">Check Route</a></li>
 				<li><a href="login.jsp">Log In</a></li>
 			</ul>
 		</div>
@@ -119,20 +119,20 @@
 					ResultSet resultSet = dao.getData(sqlquery);
 					if(resultSet.next()){
 						%>
-		<table style="margin: auto; margin-top: 50px;" cellspacing="10"
-			id="cusback_new">
-			<tr>
-				<td
-					style="font-weight: bold; font-size: 25px; color: #CCFF66; font-family: monospace;">SOURCE
-				</td>
-				<td
-					style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">DESTINATION</td>
-				<td
-					style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">TRAIN
-					NAME</td>
-			</tr>
+			<table style="margin: auto; margin-top: 50px;" cellspacing="10"
+				id="cusback_new">
+				<tr>
+					<td
+						style="font-weight: bold; font-size: 25px; color: #CCFF66; font-family: monospace;">SOURCE
+					</td>
+					<td
+						style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">DESTINATION</td>
+					<td
+						style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">TRAIN
+						NAME</td>
+				</tr>
 
-			<%
+				<%
 						do{
 						sqlquery = "SELECT trainname,source,destination FROM trains INNER JOIN assigntrains ON assigntrains.trainid"
 								 + "=trains.trainid WHERE assignid="+resultSet.getInt("assignId")
@@ -144,36 +144,36 @@
 						ResultSet rs = dao.getData(sqlquery);
 						if(rs.next()){				
 		%>
-			<tr>
+				<tr>
 
-				<td
-					style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("source")%></td>
-				<td
-					style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("destination")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("source")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("destination")%></td>
 
-				<td
-					style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("trainname")%></td>
-				<td
-					style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><a
-					href="checktrainsvia.jsp?source=<%=source1%>&via=<%=dest1%>&assignid1=<%=resultSet.getInt("assignid")%>&destination=<%=d %>&submit"
-					style="color: #CCFF66">CLICK HERE</a></td>
-			</tr>
-			<%
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("trainname")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><a
+						href="checktrainsvia.jsp?source=<%=source1%>&via=<%=dest1%>&assignid1=<%=resultSet.getInt("assignid")%>&destination=<%=d %>&submit"
+						style="color: #CCFF66">CLICK HERE</a></td>
+				</tr>
+				<%
 						}
 				} while (resultSet.next());
 			%>
-		</table>
-		<%
+			</table>
+			<%
 			}
 					else{
 						%>
-					<div
-			style="color: #FFCC00; font-family: inherit; font-size: 25px; font-weight: bold; text-align: center; margin-top: 100px; margin-left: 30px; font-family: monospace; font-weight: bold;">
-			No Trains Available</div>	
-						<%
+			<div
+				style="color: #FFCC00; font-family: inherit; font-size: 25px; font-weight: bold; text-align: center; margin-top: 100px; margin-left: 30px; font-family: monospace; font-weight: bold;">
+				No Trains Available</div>
+			<%
 					}
 		%>
-		<%
+			<%
 			}
 				}
 			%>
@@ -270,20 +270,20 @@
 				ResultSet resultSet = dao.getData(sqlquery);
 				if(resultSet.next()){
 					%>
-	<table style="margin: auto; margin-top: 50px;" cellspacing="10"
-		id="cusback_new">
-		<tr>
-			<td
-				style="font-weight: bold; font-size: 25px; color: #CCFF66; font-family: monospace;">SOURCE
-			</td>
-			<td
-				style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">DESTINATION</td>
-			<td
-				style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">TRAIN
-				NAME</td>
-		</tr>
+			<table style="margin: auto; margin-top: 50px;" cellspacing="10"
+				id="cusback_new">
+				<tr>
+					<td
+						style="font-weight: bold; font-size: 25px; color: #CCFF66; font-family: monospace;">SOURCE
+					</td>
+					<td
+						style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">DESTINATION</td>
+					<td
+						style="font-weight: bold; font-size: 25px; font-family: monospace; color: #CCFF66;">TRAIN
+						NAME</td>
+				</tr>
 
-		<%
+				<%
 					do{
 					sqlquery = "SELECT trainname,source,destination FROM trains INNER JOIN assigntrains ON assigntrains.trainid"
 							 + "=trains.trainid WHERE assignid="+resultSet.getInt("assignId")
@@ -295,36 +295,36 @@
 					ResultSet rs = dao.getData(sqlquery);
 					if(rs.next()){				
 	%>
-		<tr>
+				<tr>
 
-			<td
-				style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("source")%></td>
-			<td
-				style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("destination")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("source")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("destination")%></td>
 
-			<td
-				style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("trainname")%></td>
-			<td
-				style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><a
-				href="checktrainsvia.jsp?source=<%=src%>&via=<%=source2%>&assignid2=<%=resultSet.getInt("assignid")%>&destination=<%=dest2 %>&submit"
-				style="color: #CCFF66">CLICK HERE</a></td>
-		</tr>
-		<%
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><%=rs.getString("trainname")%></td>
+					<td
+						style="font-size: 18px; color: #FFCC00; font-weight: bold; font-family: monospace;"><a
+						href="checktrainsvia.jsp?source=<%=src%>&via=<%=source2%>&assignid2=<%=resultSet.getInt("assignid")%>&destination=<%=dest2 %>&submit"
+						style="color: #CCFF66">CLICK HERE</a></td>
+				</tr>
+				<%
 					}
 			} while (resultSet.next());
 		%>
-	</table>
-	<%
+			</table>
+			<%
 		}
 				else{
 					%>
-				<div
-		style="color: #FFCC00; font-family: inherit; font-size: 25px; font-weight: bold; text-align: center; margin-top: 100px; margin-left: 30px; font-family: monospace; font-weight: bold;">
-		No Trains Available</div>	
-					<%
+			<div
+				style="color: #FFCC00; font-family: inherit; font-size: 25px; font-weight: bold; text-align: center; margin-top: 100px; margin-left: 30px; font-family: monospace; font-weight: bold;">
+				No Trains Available</div>
+			<%
 				}
 	%>
-	<%
+			<%
 		}
 			}
 			%>
@@ -372,6 +372,16 @@
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
 		<div id="footercus_">&nbsp;</div>
+		<div id="footer2_">
+			<center>
+				<p>
+					This template is under the Creative Commons Attribution 2.5
+					License.<br /> <br /> <span> <font color="white">Copyright
+							2018-2019 Train Search Engine</font>
+					</span>
+				</p>
+			</center>
+		</div>
 	</div>
 </body>
 </html>
